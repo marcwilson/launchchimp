@@ -19,8 +19,8 @@
       "required": true,
       "default": ""
     },
-    "LAUNCHCHIMP_LR_PROJECT": {
-      "description": "Name of the project in Launchrock",
+    "LAUNCHCHIMP_LR_PROJECT_ID": {
+      "description": "Id of the project in Launchrock",
       "required": true,
       "default": ""
     },
@@ -40,7 +40,7 @@
       "default": ""
     },
     "LAUNCHCHIMP_POLL_FREQUENCY": {
-      "description": "How frequently to poll for new users",
+      "description": "How frequently (in ms) to poll for new users",
       "required": false,
       "default": "60000"
     }
